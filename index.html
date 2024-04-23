@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List App</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-4 mb-4">To-Do List</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mb-4 sticky-note">
+                <div class="card-body">
+                    <form id="toDoForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="listNameInput" placeholder="Enter list name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="taskInput" placeholder="Add new task">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="todoLists" class="row justify-content-center"></div>
+    <button id="clearBtn" class="btn btn-danger mt-4">Clear All</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

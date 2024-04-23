@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+}
+
+#todoLists {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sticky-note {
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sticky-note .card-body {
+    padding: 0;
+}
+
+.sticky-note .card-body .form-group {
+    padding: 15px;
+    margin: 0;
+    border-bottom: 1px solid #f1c40f;
+}
+
+.sticky-note .card-body .form-group:last-child {
+    border-bottom: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #f1c40f;
+    background-color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#clearBtn {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#clearBtn:hover {
+    background-color: #c82333;
+}
+
+.deleteListBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.deleteListBtn:hover {
+    background-color: #c82333;
+}
