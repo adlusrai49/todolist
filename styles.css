@@ -9,7 +9,7 @@ body {
 
 .container {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #EEE; /* Complementary color */
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
 }
@@ -38,8 +38,8 @@ ul {
 }
 
 .sticky-note {
-    background-color: #f1c40f;
-    border: 1px solid #f1c40f;
+    background-color: #76ABAE; /* Complementary color */
+    border: 1px solid #76ABAE; /* Complementary color */
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
@@ -52,7 +52,7 @@ ul {
 .sticky-note .card-body .form-group {
     padding: 15px;
     margin: 0;
-    border-bottom: 1px solid #f1c40f;
+    border-bottom: 1px solid #76ABAE; /* Complementary color */
 }
 
 .sticky-note .card-body .form-group:last-child {
@@ -65,8 +65,8 @@ li {
     align-items: center;
     padding: 10px;
     border-radius: 8px;
-    border: 1px solid #f1c40f;
-    background-color: #f1c40f;
+    border: 1px solid #76ABAE; /* Complementary color */
+    background-color: #76ABAE; /* Complementary color */
     margin-bottom: 10px;
 }
 
